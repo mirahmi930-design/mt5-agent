@@ -1,7 +1,9 @@
 name: Build Agent EXE
+
 on:
   push:
   workflow_dispatch:
+
 jobs:
   build:
     runs-on: windows-latest
